@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+}
+
+
+body {
+    background-color:#f7d4cb;
+    font-family: Arial;
+    box-sizing:border-box ;
+}
+
+form{
+    width:300px;
+    background-color:white;
+    margin: 20px auto ;
+    padding: 10px;
+    color: #999;
+    border-radius: 7px;
+}
+
+/*styles the button*/
+
+.button{
+    position: inline-block ;
+    text-decoration:none;
+    border-radius:4px;
+    background-color: #3cc93f;
+    color:white;
+    padding:20px 15px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+    text-shadow:0px 1px 0px rgba(225,225,225,0.3);
+    
+}
+
+.button:hover{
+    background-color: #37bb39;    
+}
+
+.button:activate{
+    background-color:29962a;
+}
+
+.field:focus{
+    background-color: #00ffff;
+}
+
+textarea .input{
+    border:0px;
+    outline:none;
+}
+
+.field{
+    width:15.75em;
+    height: 3em;
+    padding:7px;
+    width:270px;
+    outline: none;
+}
+
+.center{
+    text-align:center ;
+}
+
+.button {
+  width:270px;
+}
+
+h1{
+    color: gray;
+    text-shadow: 1px 2px 1px #7a9c96;
+    text-align:center ;
+    font-family:fantasy;
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-size:32px;
+	margin-left:20px;
+	letter-spacing: 1px;
+}
+
+
+header .container {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#a5f8ee;
+    height:70px;
+}
+
+header nav a {
+	margin-right:20px;
+	text-decoration:none;
+	color:gray;
+	letter-spacing: .1em;
+}
+
+header nav a:hover{
+    background-color:#f7d4cb ;
+    padding: 27px;
+}
+
+header nav a:focus{
+    background-color:#f7d4cb ;
+    padding: 27px;
+    font-weight: bolder;
+}
+
+.mensaje{
+	height:90px;
+	width: 270px;
+    outline: none;
+}
