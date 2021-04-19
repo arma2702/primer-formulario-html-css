@@ -103,7 +103,7 @@ header nav a:hover{
 }
 
 header nav a:focus{
-    background-color:#f7d4cb ;
+    /* background-color:#f7d4cb ; */
     padding: 27px;
     font-weight: bolder;
 }
